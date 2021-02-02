@@ -1,0 +1,37 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "10426512",
+      "name": "作业作品-02",
+      "font_class": "zuoyezuopin-",
+      "unicode": "e6a3",
+      "unicode_decimal": 59043
+    },
+    {
+      "icon_id": "14026951",
+      "name": "首页-选中",
+      "font_class": "yemian",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    },
+    {
+      "icon_id": "18120739",
+      "name": "消 息",
+      "font_class": "xiaoxi",
+      "unicode": "e60a",
+      "unicode_decimal": 58890
+    },
+    {
+      "icon_id": "18794475",
+      "name": "我 的",
+      "font_class": "wode",
+      "unicode": "e51f",
+      "unicode_decimal": 58655
+    }
+  ]
+}
