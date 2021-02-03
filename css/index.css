@@ -69,7 +69,7 @@ header{
 #wrap{
     width: 100%;
     height: 1.26rem;
-    position:absolute;
+    position: absolute;;
     overflow:hidden; 
 }
 #imgWrap{
@@ -134,43 +134,213 @@ nav{
     width: 100%;
     height: 0.32rem;
     color: #4ecca0;
+    background-color: #ddede3
 }
 .nav-box{
     width: 100%;
+    height: 0.32rem;
+    overflow: hidden;
+    display: flex;
+    align-items: center
 }
 nav img{
-    height: 0.15rem;
+    height: 0.12rem;
     width: 0.12rem;
+    margin-left: 0.14rem;
+    margin-right: 0.03rem;
 }
 nav span{
     display: inline-block;
-    height: 0.32rem;
+    height: 0.1rem;
+    line-height: 0.1rem;
     font-size: 0.1rem;
 }
 /* 轮播 */
 aside{
     width: 100%;
     height: 0.61rem;
-    background-color: blueviolet;
+    font-size: 0.13rem;
+}
+aside{
+    width: 100%;
+    height: 0.61rem;
+    display: flex;
+}
+aside a{
+    width: 33%;
+    color: #828284;
+    height: 0.61rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #000;
+    font-size: 0.12rem;
+}
+aside a img{
+    width: 0.3rem;
+    height: 0.3rem;
 }
 /* 主体 */
 main{
     width: 100%;
     flex:1;
-    background-color: cadetblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    overflow: auto;
+    /* background-color: cadetblue; */
 }
+/* 輪播 */
+#banner{
+    width: 100%;
+    height: 1.26rem;
+    position:absolute;
+    overflow:hidden; 
+    top: 0;
+}
+#imgbanner{
+    width:999rem;
+    height: 1.26rem;
+}
+#imgbanner li{
+    height: 1.26rem;
+    float:left;
+}
+#imgbanner li.showbann{
+    height: 1.26rem;
+    display: block;
+}
+#imgbanner li img{
+    width: 3.2rem;
+    height: 1.26rem;
+}
+.dotwrap {
+    position:absolute;
+    bottom:0.02rem;
+    left:50%;
+    z-index: 78;
+    transform: translate(-50%,0);
+}
+.dotwrap li{
+    float:left;
+    width: 0.072rem;
+    height: 0.072rem;
+    background-color:#fff;
+    margin-right: 0.08rem;
+    cursor:pointer;
+    border-radius:50%;
+    display: block;
+}
+.dotwrap .focus1{
+    background-color:#9ae98e;
+} 
+/* 主体1 */
+#main1{
+    width: 100%;
+    position: absolute;
+    top: 1.21rem;
+    z-index: 66666;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    margin-top: 0.1rem;
+    margin-bottom: 0.1rem;
+    padding-bottom: 0.08rem;
+    background-color: #eee;
+}
+.main1out{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    background-color: #fff;
+}
+.box1{
+    width: 92%;
+    height: 1.35rem;
+    font-size: 0.14rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 0.09rem;
+    background-color: #fff;
+}
+.top{
+    width: 100%;
+    height: 1.08rem;
+}
+.top img{
+    width: 100%;
+    height: 1.08rem;
+}
+.bottom{
+    height: 0.2rem;
+    display: flex;
+    justify-content: space-between;
+}
+.bottom img{
+    height: 0.15rem
+}
+#main2{
+    width: 100%;
+    position: absolute;
+    top: 9.86rem;
+    font-size: 0.12rem;
+}
+h3{
+    margin: 0.4rem 0 0 0.08rem;
+}
+.main2out{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.box2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    height: 1.75rem;
+    width: 47%;
+}
+.box2top img{ 
+    width: 100%;
+    height: 100%;
+}
+.box2bottom{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.bottom-left img{
+    width: 0.14rem
+}
+.bottom-left,.bottom-right{
+    display: flex;
+    justify-content: space-between
+}
+
 /* 底部 */
 footer{
     width: 100%;
     height: 0.49rem;
     display: flex;
     justify-content: space-around;
+    position: relative;
 }
 footer div i{
     font-size: 0.17rem !important;
 }
 footer div img{
-    width: 0.48rem;
+    width: 0.65rem;
     
 }
 footer div{
@@ -184,6 +354,15 @@ footer div span{
 }
 footer div:hover,footer div:focus{
     color: #00b589
+}
+.fabuimg{
+    position: absolute;
+    z-index: 88888;
+    top: -56%;
+}
+.fabu{
+    position: absolute;
+    top: 56%;
 }
 
 

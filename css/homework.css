@@ -1,0 +1,201 @@
+*{
+    margin: 0;padding: 0;
+}
+html{
+    font-size: 31.25vw;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+body{
+   display: flex; 
+   flex-direction: column;
+   color: #807f85;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+header{
+    width: 100%;
+    height: 0.38rem;
+    font-size: 0.14rem;
+    overflow: hidden; 
+}
+#head{
+    width: 100%;
+    height: 0.37rem;display: flex;
+    justify-content: space-around;
+}
+.navbox{
+    width: 100%;
+    height: 0.37rem; 
+    display: flex;
+    justify-content: space-around;   
+}
+.nav{
+    float: left;
+    width: 88%;
+    height: 0.37rem;overflow: auto;
+}
+.nav li{
+    float: left;
+    height: 0.37rem;
+    margin: 0 0.07rem;
+    line-height: 0.37rem;
+    box-sizing: border-box;
+}
+.nav li:hover,.nav li:focus{
+    color: #34e675;
+    border-bottom: 0.03rem solid #06b548; 
+}
+/* 导航 */
+nav{
+    width: 100%;
+    height: 0.35rem;
+    font-size: 0.12rem;
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid #f3f3f3;
+}
+.sort{
+    width: 94%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+.sort li{
+    padding-left: 0.1rem;
+    padding-right: 0.1rem;
+    height: .21rem;
+    line-height: .21rem;
+    background-color: #f7f5f6; 
+    color: #9f9f9f;
+}
+.sort li:hover{
+    background-color: #06b548;
+    color: #fff;
+}
+
+/* 主体 */
+main{
+    width: 100%;
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    overflow: auto;
+    font-size: 0.12rem;
+}
+.top{
+    height: 0.68rem;
+    display: flex;
+    align-items: center;
+}
+.image{
+    margin-left: 0.14rem;
+    margin-right: 0.07rem;
+}
+.image,.name{
+    height: 0.32rem;
+}
+.image img{
+    width: 0.32rem;
+    height: 0.32rem;
+    border-radius: 50%;
+}
+.speak{
+    margin-bottom: 0.08rem;
+    margin-left: 0.14rem;
+    margin-right: 0.14rem
+}
+.pic{
+    width: 91.2%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.pict img{
+    width: 0.97rem;
+    height: 0.97rem;
+}
+.meta{
+    width: 91.2%;
+    margin: 0 auto;
+    height: 0.44rem;
+    display: flex;
+    justify-content: space-between;align-items: center;
+}
+.type1{
+    height: 0.17rem;
+    width: 0.4rem;
+    text-align: center;
+    line-height: 0.17rem;
+    background-color: #e1f8ea;
+}
+.share{
+    display: flex;
+    justify-content: space-between; 
+}
+.share li{
+    margin: 0.1rem;
+}
+.share img{
+    height: 0.12rem;
+}
+.bottom{
+    width: 91.2%;
+    margin: 0 auto;
+    background-color: #f7f7f7;
+}
+.star,.comment{
+    line-height: 0.2rem;
+    padding: 0.15rem; 
+}
+
+/* 底部 */
+footer{
+    width: 100%;
+    height: 0.49rem;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+}
+footer div i{
+    font-size: 0.17rem !important;
+}
+footer div img{
+    width: 0.65rem;
+    
+}
+footer div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+footer div span{
+    font-size:0.09rem;
+}
+footer div:hover,footer div:focus{
+    color: #00b589
+}
+.fabuimg{
+    position: absolute;
+    z-index: 88888;
+    top: -56%;
+}
+.fabu{
+    position: absolute;
+    top: 56%;
+}
+
+

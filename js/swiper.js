@@ -1,15 +1,9 @@
 let n = 0;	//代表当前在第几张
-let liList = $("#imgWrap li")
-let dotWrap = $("#dotWrap")[0]
-let ul = $("#imgWrap")
-function changeImg() {
-    ul.animate({
-        marginLeft: -(n * 3.2)+"rem"
-    })
-    dotList.removeClass("focus");
-    dotList.eq(n).addClass("focus");
-}
+let liList = $("#imgWrap li");
+let dotWrap = $("#dotWrap")[0];
+let ul = $("#imgWrap");
 $("#next").click(function () {
+    // console.log(1);
     if (n < liList.length - 1) {
         n++
     }
@@ -37,3 +31,10 @@ dotList.click(function () {
     n = $(this).index();
     changeImg()
 })
+function changeImg() {
+    ul.animate({
+        marginLeft: -(n * 3.2)+"rem"
+    })
+    dotList.removeClass("focus");
+    dotList.eq(n).addClass("focus");
+}
