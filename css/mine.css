@@ -1,0 +1,139 @@
+*{
+    margin: 0;padding: 0;
+}
+html{
+    font-size: 31.25vw;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+body{
+   display: flex; 
+   flex-direction: column;
+   color: #807f85;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+header{
+    width: 100%;
+    height: 1.1rem;
+    font-size: 0.17rem;
+    color: #fff;
+    background-color: #403e4b;
+    overflow: hidden; 
+}
+.self{
+    width: 100%;
+}
+.self span{
+    margin:0.22rem 0.18rem;
+    float: right
+}
+.user{
+    height:0.44rem;
+    display: flex;
+    margin: 0.39rem 0.13rem;
+    align-items: center;
+    justify-content: flex-start;
+}
+.user img{
+    width: 0.42rem;
+    height: 0.42rem;
+    border-radius: 50%;
+    margin-left: 0.13rem;
+    margin-right: 0.07rem;
+}
+/* 导航 */
+nav{
+    width: 100%;
+    font-size: 0.11rem;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+.navmain{
+    width: 96%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start
+}
+.nav{
+    width: 24%;
+    height: 0.8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav img{
+    width: 0.37rem;
+    height: 0.37rem;
+}
+/* 主体 */
+main{
+    width: 100%;
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    overflow: auto;
+    font-size: 0.14rem;
+    background-color: #f7f7f7 ;
+    color: #070318;
+    ;
+    padding-bottom:0.85rem; 
+}
+.box1{
+    width:100%;
+    margin-top: 0.16rem;
+    line-height: 0.44rem;
+    text-indent: 0.15rem;
+    background-color: #fff;
+}
+
+/* 底部 */
+footer{
+    width: 100%;
+    height: 0.49rem;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+}
+footer div i{
+    font-size: 0.17rem !important;
+}
+footer div img{
+    width: 0.65rem;
+    
+}
+footer div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+footer div span{
+    font-size:0.09rem;
+}
+footer div:hover,footer div:focus{
+    color: #00b589
+}
+.fabuimg{
+    position: absolute;
+    z-index: 88888;
+    top: -56%;
+}
+.fabu{
+    position: absolute;
+    top: 56%;
+}
+
+

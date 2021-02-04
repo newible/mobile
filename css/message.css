@@ -1,0 +1,133 @@
+*{
+    margin: 0;padding: 0;
+}
+html{
+    font-size: 31.25vw;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+body{
+   display: flex; 
+   flex-direction: column;
+   color: #807f85;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+header{
+    width: 100%;
+    height: 0.38rem;
+    font-size: 0.14rem;
+    overflow: hidden; 
+}
+#head{
+    width: 100%;
+    height: 0.37rem;display: flex;
+    justify-content: space-around;
+}
+.navbox{
+    width: 40%;
+    height: 0.37rem; 
+    display: flex;
+    justify-content: space-around;   
+}
+.nav{
+    float: left;
+    width: 88%;
+    height: 0.37rem;overflow: auto;
+    display: flex;
+    justify-content: center;
+}
+.nav li{
+    float: left;
+    height: 0.37rem;
+    margin: 0 0.07rem;
+    line-height: 0.37rem;
+    box-sizing: border-box;
+}
+.nav li:hover,.nav li:focus{
+    color: #34e675;
+    border-bottom: 0.03rem solid #06b548; 
+}
+
+
+/* 主体 */
+main{
+    width: 100%;
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    overflow: auto;
+    font-size: 0.12rem;
+}
+.box1{
+    width: 91.2%;
+    padding: 0.23rem 0.15rem;
+    margin: 0 auto;
+}
+.inform{ 
+    display:flex;
+    align-items: flex-start;
+}
+.inform img{
+    width: 0.33rem;
+    height: 0.33rem;
+}
+.word p:nth-child(1){
+    margin-left: 0.09rem;
+    line-height: 0.21rem;
+    font-size: 0.12rem;
+    color: #000;
+}
+.word p:nth-child(2){
+    margin-left: 0.09rem;
+    font-size: 0.1rem;
+}
+
+/* 底部 */
+footer{
+    width: 100%;
+    height: 0.49rem;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+}
+footer div i{
+    font-size: 0.17rem !important;
+}
+footer div img{
+    width: 0.65rem;
+    
+}
+footer div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+footer div span{
+    font-size:0.09rem;
+}
+footer div:hover,footer div:focus{
+    color: #00b589
+}
+.fabuimg{
+    position: absolute;
+    z-index: 88888;
+    top: -56%;
+}
+.fabu{
+    position: absolute;
+    top: 56%;
+}
+
+
