@@ -64,6 +64,12 @@ main{
     display: flex;
     font-size: 0.1rem;
 }
+.nav2{
+    width: 100%;
+    height: 0.38rem;
+    display: flex;
+    font-size: 0.1rem;
+}
 .nav-box{
     height: 0.38rem;
     width: 50%;
@@ -74,6 +80,48 @@ main{
     background-image: url(../images/sanjiao_xia.png);
     background-position: 76% 50%;
     background-repeat: no-repeat;
+}
+.massion{
+    width: 100%;
+}
+.box{
+    width: 94%;
+    height: 0.97rem;
+    margin: 0.1rem auto 0;
+    box-sizing: border-box;
+    border: 0.02rem solid #f8f8f8;
+    overflow: hidden;
+}
+.boxmain{
+    margin: 0 auto;
+    width: 90%;
+}
+h4{
+    height: 0.27rem;
+    line-height: 0.27rem;
+    font-size: 0.12rem;
+}
+.title{
+    color: #000;
+}
+.price{
+    color: #f4620f;
+    border-bottom: 0.01rem solid #f3fff4;
+}
+.time{
+    margin-top: 0.11rem;
+}
+.time img{
+    width: 0.11rem;
+    height: 0.11rem;
+}
+.time span{
+    margin-right: 0.12rem;
+}
+.fixnav {
+    position: fixed;
+    top: 0px;
+    left: 0px;
 }
 /* 底部 */
 footer{
