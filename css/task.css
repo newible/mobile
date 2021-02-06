@@ -120,8 +120,8 @@ h4{
 }
 .fixnav {
     position: fixed;
-    top: 0px;
-    left: 0px;
+    top: 0.37rem;
+    left: 0;
 }
 /* 底部 */
 footer{
